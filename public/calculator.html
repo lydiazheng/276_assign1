@@ -1,0 +1,110 @@
+<!--cmpt 276 Assignment1 
+  calculator.html
+  Author:Lydia
+  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calculator.css" >
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<img src="sfu.png" alt="SFU image" style="width:184px;height:92px;">
+	<table class = "one", style="width:100%">
+		<tr class="one">
+			<th class="one"><a href="http://www.sfu.ca" target="blank">SFU home</th>
+			<th class="one"><a href="http://courses.cs.sfu.ca" target="blank">CourSys</th>
+			<th class="one"><a href="http://go.sfu.ca" target="blank">Student Center</th>
+			<th class="one"><a href="http://www.lib.sfu.ca" target="blank">Library</th>
+		</tr>
+	</table>
+
+	<title>Grade Calculator</title>
+</head>
+<body>
+	<script src="calculator.js" type="text/javascript"></script>
+	<div class="Grade_Calculator_border" >
+	<h1>Grade Calculator</h1>
+	<div class="Activities_body" >
+	<h2>Activities</h2>
+	<h4>Give grades to the numeric activities:</h4>
+	<br>
+	<table id="two", style="width:100%">
+		<tr id="myRow">
+			<th>Name</th>
+			<th>Short Name</th>
+			<th>Weight</th>
+			<th>Grade</th>
+			<th>Percent</th>
+		</tr>
+
+		<tr>
+			<td>Activity 1</td>
+			<td>A1</td>
+			<td><input id="A1_weight"  type="text" onkeyup="weighted()"></td>
+			<td><input id="A1_numerator"  type="text" onkeyup="percent()" > / <br><input id="A1_denominator" type="text" onkeyup="percent()" ></td>
+			<td id="percent1" class="percent"></td>
+		</tr>
+
+		<tr>
+			<td>Activity 2</td>
+			<td>A2</td>
+			<td><input id="A2_weight" type="text" onkeyup="weighted()" ></td>
+			<td><input id="A2_numerator" type="text" onkeyup="percent()" > / <br><input id="A2_denominator" type="text" onkeyup="percent()" ></td>
+			<td id="percent2" class="percent"></td>
+		</tr>
+
+		<tr>
+			<td>Activity 3</td>
+			<td>A3</td>
+			<td><input id="A3_weight" type="text" onkeyup="weighted()"></td>
+			<td><input id="A3_numerator" type="text" onkeyup="percent()"> / <br><input id="A3_denominator" type="text" onkeyup="percent()"></td>
+			<td id="percent3" class="percent"></td>
+		</tr>
+
+		<tr>
+			<td>Activity 4</td>
+			<td>A4</td>
+			<td><input id="A4_weight" type="text" onkeyup="weighted()"></td>
+			<td><input id="A4_numerator" type="text" onkeyup="percent()"> / <br><input id="A4_denominator" type="text" onkeyup="percent()" ></td>
+			<td id="percent4" class="percent"></td>
+		</tr>	
+
+	</table>
+
+	<h2>Result</h2>
+	<table class="result">
+		<tr id="result">
+			<th id="result"> Mean:</th>
+			<th id="mean"> </th>
+			<th id="result">Weighted:</th>
+			<th id="weighted_print"></th>
+		</tr>
+
+		<tr id="result">
+			<th id="result"> </th>
+			<th id="result"> </th>
+			<th id="result">Your grade of this course:</th>
+			<th id="course_grade"> </th>
+		</tr>
+	</table>
+
+	<br>
+	<span class="left">
+		<button type="button" onclick="addRow()"> Add Activity</button>
+		<button type="button" onclick="delRow()"> Del Activity</button> 
+	</span>
+
+	<span class="right">
+		<button type="button" onclick="weighted_print()">WEIGHTED</button>
+		<button type="button" onclick="mean()">MEAN</button>
+	</span>
+
+	<div id="flip">Click! Click! Click!!!</div>
+	<div id="panel">CMPT276 Assignment 1<br>Created by:Lydia Zheng <br> Thank you~ ^^</div>
+
+
+</body>
+
+
+
+</html>
