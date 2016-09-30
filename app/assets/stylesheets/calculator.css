@@ -1,0 +1,188 @@
+/*cmpt 276 Assignment1 
+  calculator.css
+  Author:Lydia
+  */
+
+img{
+	-webkit-animation:mymove 5s infinite;
+	animation: mymove 5s infinite;
+	position: relative;
+	-webkit-animation-timing-function:ease-in-out;
+}
+
+@-webkit-keyframes mymove{
+	from{left: 0px;}
+	to{left: 500px;}
+}
+
+@keyframes mymove{
+	from{left: 0px;}
+	to{left: 500px;}
+}
+
+table.one, tr.one, th.one{
+	background-color: rgb(233,238,241);
+	font-family: "Arial Black", sans-serif;
+	text-shadow: 2px 2px white;
+	table-layout: fixed;
+}
+
+a:link{
+	color:rgb(128,21,28);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgb(128,21,28);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #CD5C5C;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:active{
+	color: #FFB6C1;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+h1{
+	font-size:30px;
+	font-weight: lighter;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+	color: rgb(128,21,28);
+	font-size:22px;
+}
+
+h4{
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+body{
+	background-color: rgb(128,21,28);
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+div.Grade_Calculator_border {
+	padding-left: 30px;
+	padding-right: 300px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: white;
+	border-style: solid;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-width: 15px;
+	border-bottom-width: 25px;
+	border-bottom-style: outset;
+	border-bottom-color: rgb(75,71,65);
+	box-shadow: 0px 6px 6px 0px black;
+}
+div.Activities_body {
+	width:auto;
+	background-color: rgb(233,238,241);
+	padding: 15px;
+	padding-bottom: 55px;
+	border-radius: 5px;
+}
+
+th {
+	text-align: left;
+	border:2px solid;
+	border-color: rgb(204,208,211);
+	background-color: rgb(221,221,221);
+	font-family: "Times New Roman", Times, serif;
+	padding: 5px;
+}
+
+#two, tr, td {
+	border:2px solid;
+	border-color: rgb(204,208,211);
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+td {
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 75px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 70px;
+}
+
+input{
+	text-align: center;
+	width: 80px;
+	height: 20px;
+	border-color: rgb(204,208,211);
+	border-collapse: collapse;
+}
+span.left{
+	float:left;
+}
+span.right{
+	float: right;
+}
+
+table.result{
+	width:500px;
+}
+
+#result, #mean, #weighted_print, #course_grade{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-color: rgb(233,238,241);
+	background-color: rgb(233,238,241);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+button{
+	color: white;
+	background-color: rgb(128,21,28);
+	border-radius: 2px;
+	text-align: center;
+	border-style: hidden;
+	height: 25px;
+	width: 75px;
+	margin: 3px;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(233,238,241);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(128,21,28);
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+    font-color: rgb(128,21,28);
+}
+
+
+
+
+
+
+
+
+
+
+
+
