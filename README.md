@@ -1,9 +1,15 @@
-# README
+# GPA Calculator
+This is an application to calculate CGPA. It was designed for student to predicte CGPA without knowing grade for  current courses.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How it works
+- CGPA is based on input
+ - Assignment weight
+ - Course weight
+ 
+## How to run
+`bundle exec rails server`
 
-Things you may want to cover:
+If there is any issues, here are things you may want to cover:
 
 * Ruby version
 
