@@ -9,7 +9,7 @@ This is an application that calculates user's CGPA. It is designed for student t
 ## How to run
 `bundle exec rails server`
 
-If there is any issues, here are the things you may want to cover:
+If there are any issues, here are the things you may want to cover:
 
 * Ruby version
 
