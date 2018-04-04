@@ -1,15 +1,15 @@
 # GPA Calculator
-This is an application to calculate CGPA. It was designed for student to predicte CGPA without knowing grade for  current courses.
+This is an application that calculates user's CGPA. It is designed for student to predict CGPA without knowing the grades of current courses.
 
 ## How it works
-- CGPA is based on input
- - Assignment weight
- - Course weight
+- CGPA is based on user's input
+- Assignment weight
+- Course weight
  
 ## How to run
 `bundle exec rails server`
 
-If there is any issues, here are things you may want to cover:
+If there is any issues, here are the things you may want to cover:
 
 * Ruby version
 
