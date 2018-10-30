@@ -8,9 +8,10 @@ CGPA is calculated based on
 - Course weight
  
 ## How to run
+### Command
 `bundle exec rails server`
 
-If there are any issues, here are the things you may want to cover:
+### Possible Issue Sources
 
 * Ruby version
 
