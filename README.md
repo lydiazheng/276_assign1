@@ -3,16 +3,16 @@ This application is designed to predict CGPA without the grades of current cours
 
 ## How it works
 CGPA is calculated based on
-- user's input
-- Assignment weight
-- Course weight
+- User's input
+- Assignment percentage
+- Course percentage
  
 ## How to run
-### Command
-`bundle exec rails server`
+
+Clone this repo to local and use command:
+    $`bundle exec rails server`
 
 ### Possible Issue Sources
-
 
 * Ruby version
 
